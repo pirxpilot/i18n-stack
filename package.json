@@ -1,0 +1,33 @@
+{
+  "name": "code42day-i18n",
+  "version": "0.0.0",
+  "description": "Stack of connect middleware for language/locale detection and translation.",
+  "author": {
+    "name": "Damian Krzeminski",
+    "email": "pirxpilot@code42day.com",
+    "url": "https://code42day.com"
+  },
+  "repository": "code42day/code42day-i18n",
+  "license": "MIT",
+  "keywords": [
+    "code42day-i18n",
+    "i18n",
+    "l10n",
+    "connect",
+    "middleware",
+    "accept-language",
+    "po"
+  ],
+  "dependencies": {
+    "connect-gettext": "^1.0.0",
+    "detect-language": "^1.0.1",
+    "overwrite-language": "^0.1.0",
+    "parse-accept-language": "^1.0.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.7.0"
+  },
+  "scripts": {
+    "test": "make check"
+  }
+}

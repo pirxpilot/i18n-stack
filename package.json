@@ -21,7 +21,7 @@
   "dependencies": {
     "connect-gettext": "^1.0.0",
     "detect-language": "^1.0.1",
-    "overwrite-language": "^0.1.0",
+    "overwrite-language": "~0",
     "parse-accept-language": "^1.0.0"
   },
   "devDependencies": {

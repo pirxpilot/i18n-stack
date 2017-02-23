@@ -1,6 +1,6 @@
 {
   "name": "i18n-stack",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Stack of connect middleware for language/locale detection and translation.",
   "author": {
     "name": "Damian Krzeminski",

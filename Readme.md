@@ -1,7 +1,7 @@
 [![NPM version][npm-image]][npm-url]
 [![Dependency Status][gemnasium-image]][gemnasium-url]
 
-# code42day-i18n
+# i18n-stack
 
 Stack of connect middleware for language/locale detection and translation.
 
@@ -17,7 +17,7 @@ If you don't need this exact stack all of its components can be used separately.
 ## Install
 
 ```sh
-$ npm install --save code42day-i18n
+$ npm install --save i18n-stack
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ var locale = {
   gettextAlias: '_'
 };
 
-var i18n = require('code42day-i18n');
+var i18n = require('i18n-stack');
 
 app.use(i18n.overwriteLanguage(locale));
 app.use(i18n.detectLanguage(locale));
@@ -43,15 +43,15 @@ app.use(i18n.gettext)(locale));
 
 ## License
 
-MIT © [code42day](https://code42day.com)
+MIT © [Damian Krzeminski](https://pirxpilot.me)
 
 [detect-language]: https://npmjs.org/package/detect-language
 [overwrite-language]: https://npmjs.org/package/overwrite-language
 [connect-gettext]: https://npmjs.org/package/connect-gettext
 [parse-accept-language]: https://npmjs.org/package/parse-accept-language
 
-[npm-image]: https://img.shields.io/npm/v/code42day-i18n.svg
-[npm-url]: https://npmjs.org/package/code42day-i18n
+[npm-image]: https://img.shields.io/npm/v/i18n-stack.svg
+[npm-url]: https://npmjs.org/package/i18n-stack
 
-[gemnasium-image]: https://img.shields.io/gemnasium/code42day/code42day-i18n.svg
-[gemnasium-url]: https://gemnasium.com/code42day/code42day-i18n
+[gemnasium-image]: https://img.shields.io/gemnasium/pirxpilot/i18n-stack.svg
+[gemnasium-url]: https://gemnasium.com/pirxpilot/i18n-stack

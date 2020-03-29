@@ -18,15 +18,18 @@
     "po"
   ],
   "dependencies": {
-    "connect-gettext": "^1.0.0",
-    "detect-language": "^1.0.1",
-    "overwrite-language": "~0",
-    "parse-accept-language": "^1.0.0"
+    "connect-gettext": "~2",
+    "detect-language": "~2",
+    "overwrite-language": "~1",
+    "parse-accept-language": "~2"
   },
   "devDependencies": {
-    "jshint": "^2.7.0"
+    "jshint": "~2"
   },
   "scripts": {
     "test": "make check"
-  }
+  },
+  "files": [
+    "index.js"
+  ]
 }

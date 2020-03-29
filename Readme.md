@@ -1,5 +1,6 @@
 [![NPM version][npm-image]][npm-url]
-[![Dependency Status][gemnasium-image]][gemnasium-url]
+[![Dependency Status][deps-image]][deps-url]
+[![Dev Dependency Status][deps-dev-image]][deps-dev-url]
 
 # i18n-stack
 
@@ -36,7 +37,7 @@ var i18n = require('i18n-stack');
 
 app.use(i18n.overwriteLanguage(locale));
 app.use(i18n.detectLanguage(locale));
-app.use(i18n.gettext)(locale));
+app.use(i18n.gettext(locale));
 
 
 ```
@@ -53,5 +54,8 @@ MIT © [Damian Krzeminski](https://pirxpilot.me)
 [npm-image]: https://img.shields.io/npm/v/i18n-stack.svg
 [npm-url]: https://npmjs.org/package/i18n-stack
 
-[gemnasium-image]: https://img.shields.io/gemnasium/pirxpilot/i18n-stack.svg
-[gemnasium-url]: https://gemnasium.com/pirxpilot/i18n-stack
+[deps-image]: https://img.shields.io/david/pirxpilot/i18n-stack.svg
+[deps-url]: https://david-dm.org/pirxpilot/i18n-stack
+
+[deps-dev-image]: https://img.shields.io/david/dev/pirxpilot/i18n-stack.svg
+[deps-dev-url]: https://david-dm.org/pirxpilot/i18n-stack?type=dev

@@ -1,6 +1,5 @@
 [![NPM version][npm-image]][npm-url]
 [![Dependency Status][deps-image]][deps-url]
-[![Dev Dependency Status][deps-dev-image]][deps-dev-url]
 
 # i18n-stack
 
@@ -51,11 +50,9 @@ MIT © [Damian Krzeminski](https://pirxpilot.me)
 [connect-gettext]: https://npmjs.org/package/connect-gettext
 [parse-accept-language]: https://npmjs.org/package/parse-accept-language
 
-[npm-image]: https://img.shields.io/npm/v/i18n-stack.svg
+[npm-image]: https://img.shields.io/npm/v/i18n-stack
 [npm-url]: https://npmjs.org/package/i18n-stack
 
-[deps-image]: https://img.shields.io/david/pirxpilot/i18n-stack.svg
-[deps-url]: https://david-dm.org/pirxpilot/i18n-stack
+[deps-image]: https://img.shields.io/librariesio/release/npm/i18n-stack
+[deps-url]: https://libraries.io/npm/i18n-stack
 
-[deps-dev-image]: https://img.shields.io/david/dev/pirxpilot/i18n-stack.svg
-[deps-dev-url]: https://david-dm.org/pirxpilot/i18n-stack?type=dev

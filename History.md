@@ -1,4 +1,10 @@
 
+1.0.1 / 2025-06-06
+==================
+
+ * remove Travis CI configuration
+ * use `biome` as a linter and formatter
+
 1.0.0 / 2020-03-29
 ==================
 

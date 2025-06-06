@@ -1,6 +1,9 @@
 check: lint
 
 lint:
-	./node_modules/.bin/jshint *.js
+	./node_modules/.bin/biome ci
 
-.PHONY: check lint
+format:
+	./node_modules/.bin/biome check --fix
+
+.PHONY: check format lint
